@@ -1,0 +1,184 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+*{
+    padding: 0 ;
+    margin: 0;
+}
+body{
+    font-family: 'Roboto', sans-serif;
+font-weight: 0%;
+}
+.container{
+    display: flex;
+    justify-content: space-between;
+    height: 80%;
+}
+.box1{
+    width: 60%;
+    height: 50%;
+    display: flex;
+    flex-direction: column;
+}
+.box2{
+    width: 35%;
+    height: 50%;
+    border: 1px solid grey;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    
+}
+#img1{
+height: 500px;
+width: 420px;
+}
+
+#intro{
+    font-size: 60px;
+    
+}
+#name{
+    font-size: 70px;
+    color: rgb(143, 0, 0);
+    font-weight: bold;
+}
+#introduction{
+    font-size: 20px;
+    line-height: 30px;
+    font-family: 'Roboto', sans-serif;
+}
+/* Button code*/
+.button-71 {
+    background-color: #0078d0;
+    border: 0;
+    border-radius: 56px;
+    color: #fff;
+    cursor: pointer;
+    display: inline-block;
+    font-family: system-ui,-apple-system,system-ui,"Segoe UI",Roboto,Ubuntu,"Helvetica Neue",sans-serif;
+    font-size: 22px;
+    align-self: center;
+    font-weight: 600;
+    margin-top: 20px;
+    width: 300px;
+    outline: 0;
+    padding: 16px 21px;
+    position: relative;
+    text-align: center;
+    text-decoration: none;
+    transition: all .3s;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+   
+  }
+  #btn{
+    align-self: center;
+  }
+  
+  .button-71:before {
+    background-color: initial;
+    background-image: linear-gradient(#fff 0, rgba(255, 255, 255, 0) 100%);
+    border-radius: 125px;
+    content: "";
+    height: 50%;
+    left: 4%;
+    opacity: .5;
+    position: absolute;
+    top: 0;
+    transition: all .3s;
+    width: 92%;
+  }
+  
+  .button-71:hover {
+    box-shadow: rgba(255, 255, 255, .2) 0 3px 15px inset, rgba(0, 0, 0, .1) 0 3px 5px, rgba(0, 0, 0, .1) 0 10px 13px;
+    transform: scale(1.05);
+  }
+  
+  @media (min-width: 768px) {
+    .button-71 {
+      padding: 16px 48px;
+    }
+  }
+  /* About page code here*/
+  .about{
+    width: 80vw;
+    height:90vh ;
+  
+   margin: auto;
+   padding: 10px;
+  }
+
+.profile-pic{
+  width: 200px;
+  height: 190px;
+
+  margin: 10px auto ;
+border-radius: 50%;
+background-image: url("/img/port-pic.jpg");
+background-size: cover;
+border: 5px solid rgb(108, 108, 212);
+
+}
+.contact-info{
+  width: 280px;
+  height: 50px;
+  margin: 10px auto;
+  text-align: center;
+  line-height: 8px;
+  font-weight: bold;
+  font-size: 18px;
+
+}
+.social-media{
+  width: 280px;
+  height: 60px;
+
+  margin: auto;
+  display: flex;
+
+}
+.img{
+  width: 55px;
+  aspect-ratio: 3/2;
+  object-fit: contain;
+ 
+}
+
+.my-intro{
+  width: 70%;
+  height: 45vh;
+  
+  margin: auto;
+
+}
+.my-intro h1{
+  text-align: center;
+font-weight: bold;
+}
+/*services css code here*/
+.services{
+  margin: auto;
+  height: 50%;
+  width: 50%;
+
+  padding: 10px;
+}
+#heading{
+ 
+  margin-top: 10px;
+  font-size: 70px;
+  color: rgb(143, 0, 0);
+  font-weight: bold;
+}
+.info{
+  font-size: 23px;
+  
+}
+#img2{
+  height: 300px;
+  width: 420px;
+  }
+  #stdpic{
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+  }
+  
